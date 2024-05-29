@@ -1,9 +1,9 @@
-package datastructures;
+package datastructures.linkedlist;
 
 import java.util.HashSet;
 import java.util.Set;
 
-import datastructures.LinkedList.Node;
+import datastructures.linkedlist.LinkedList.Node;
 
 public class RemoveDuplicates {
 

@@ -1,4 +1,4 @@
-package datastructures;
+package datastructures.linkedlist;
 
 public class Main {
 
@@ -14,14 +14,8 @@ public class Main {
 		//myLinkedList.printAll();
 		
 		//System.out.println(myLinkedList.partitionList(2, myLinkedList));
-		PartitionList list = new PartitionList(4);
-		list.append(2);
-		list.append(5);
-		list.append(6);
-		list.append(1);
-		list.partitionList(3, list);
-        myLinkedList.printAll();
+		
         
 	}
 
-}
+} 

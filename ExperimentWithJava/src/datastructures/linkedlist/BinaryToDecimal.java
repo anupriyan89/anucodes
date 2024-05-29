@@ -1,6 +1,6 @@
-package datastructures;
+package datastructures.linkedlist;
 
-import datastructures.LinkedList.Node;
+import datastructures.linkedlist.LinkedList.Node;
 
 public class BinaryToDecimal {
 

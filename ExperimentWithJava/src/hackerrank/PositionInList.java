@@ -29,11 +29,7 @@ public class PositionInList {
 			} catch(Exception e) {
 				System.out.println("ERROR!");
 			}
-			
-			
 		}
 		in.close();
-		
-		
 	}
 }

@@ -1,4 +1,4 @@
-package datastructures;
+package datastructures.linkedlist;
 
 public class HasLoop {
 
@@ -21,8 +21,8 @@ public class HasLoop {
 	
 
 	private static boolean hasLoop(LinkedList myList) {
-		datastructures.LinkedList.Node fast = myList.getHead();
-		datastructures.LinkedList.Node slow = myList.getHead();
+		datastructures.linkedlist.LinkedList.Node fast = myList.getHead();
+		datastructures.linkedlist.LinkedList.Node slow = myList.getHead();
 		while(fast!=null && fast.next!= null) {
 			slow = slow.next;
 			fast = fast.next.next;

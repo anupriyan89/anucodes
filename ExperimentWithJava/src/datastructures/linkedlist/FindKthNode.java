@@ -1,4 +1,4 @@
-package datastructures;
+package datastructures.linkedlist;
 
 public class FindKthNode {
 
@@ -16,9 +16,9 @@ public class FindKthNode {
 	        System.out.println(findKthFromEnd(6, myLinkedList)); // Output: null
 
 	}
-	public static datastructures.LinkedList.Node findKthFromEnd(int k, LinkedList myLinkedList) {
-		datastructures.LinkedList.Node temp = myLinkedList.getHead();
-		datastructures.LinkedList.Node pre = myLinkedList.getHead();
+	public static datastructures.linkedlist.LinkedList.Node findKthFromEnd(int k, LinkedList myLinkedList) {
+		datastructures.linkedlist.LinkedList.Node temp = myLinkedList.getHead();
+		datastructures.linkedlist.LinkedList.Node pre = myLinkedList.getHead();
 		int len = 0;
 		while(temp!=null) {
 			temp = temp.next;

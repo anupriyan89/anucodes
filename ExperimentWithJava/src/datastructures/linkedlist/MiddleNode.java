@@ -1,4 +1,4 @@
-package datastructures;
+package datastructures.linkedlist;
 
 public class MiddleNode {
 	
@@ -20,9 +20,9 @@ public class MiddleNode {
 
 	
 
-	private static datastructures.LinkedList.Node findMiddleNode(LinkedList myList) {
-		datastructures.LinkedList.Node fast = myList.getHead();
-		datastructures.LinkedList.Node slow = myList.getHead();
+	private static datastructures.linkedlist.LinkedList.Node findMiddleNode(LinkedList myList) {
+		datastructures.linkedlist.LinkedList.Node fast = myList.getHead();
+		datastructures.linkedlist.LinkedList.Node slow = myList.getHead();
 		while(fast!=null && fast.next!= null) {
 			slow = slow.next;
 			fast = fast.next.next;

@@ -1,4 +1,4 @@
-package datastructures;
+package datastructures.linkedlist;
 
 public class ListNode {
 	     int val;
