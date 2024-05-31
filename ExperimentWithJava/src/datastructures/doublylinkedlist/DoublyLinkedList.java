@@ -187,7 +187,18 @@ public class DoublyLinkedList {
 	}
 	
 	public boolean isPalindrome() {
-		return false;
+		Node left = head;
+		Node right = tail;
+		while(left!=right) {
+			if(left.value!=right.value) {
+				return false;
+			}
+			left = left.next;
+			right = right.prev;
+		}
+		return true;
 	}
+	
+	
 
 }
